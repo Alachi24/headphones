@@ -209,11 +209,12 @@ form {
 form .user-details .input-box {
   margin-bottom: 15px;
   width: calc(100% / 2-20px);
+  text-align: center;
 }
 
 .user-details .input-box .details {
   display: block;
-  font-weight: 500;
+  font-weight: 500px;
   margin-bottom: 5px;
 }
 
@@ -233,6 +234,7 @@ form .user-details .input-box {
 form .button {
   height: 45px;
   margin: 45px 0;
+  text-align: center;
 }
 
 form .button input {
@@ -249,17 +251,28 @@ form .button input {
 }
 
 .end-part {
-  display: flex;
   background-image: url("images/footer_background.png");
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
   height: 20vh;
   width: 100%;
 }
 
-.end-part ul {
-  list-style: none;
+.end-part p {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.08px;
+  color: #ffffff;
+  opacity: 35.17%;
+  width: 98px;
+  height: 15px;
   margin: auto;
+}
+
+.footer-section {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  line-height: 90px;
 }
